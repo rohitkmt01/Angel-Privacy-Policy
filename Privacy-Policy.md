@@ -2,47 +2,56 @@
 
 **Last Updated:** 24 May 2025
 
-Angel ek Discord Music Bot hai jo aapke server mein music sunane ke liye banaaya gaya hai. Hum aapki privacy ko bohot seriously lete hain aur aapko bataana chahte hain ki hum kaunsi information access karte hain aur use kaise karte hain.
+Angel is a Discord Music Bot designed to play music on your server. We take your privacy very seriously and want to be transparent about what information we access and how we use it.
 
-## 1. Data Jo Hum Collect Karte Hain
+## 1. Data We Collect
 
-Angel koi bhi personal ya sensitive data collect nahi karta. Lekin bot chalane ke liye humein kuch temporary data access karna padta hai:
+Angel does **not** collect any personal or sensitive data. However, to operate the bot, we temporarily access the following information:
 
-- Voice channel IDs (music play karne ke liye)
-- Text channel IDs (commands ke response ke liye)
-- User IDs (commands process karne aur permissions check karne ke liye)
-- Server (Guild) ID (settings ya preferences ke liye)
+- Voice channel IDs (to play music)  
+- Text channel IDs (to respond to commands)  
+- User IDs (to process commands and check permissions)  
+- Server (Guild) IDs (for settings and preferences)  
 
-Yeh saari information sirf temporary memory (RAM) mein rakhi jaati hai, permanently save nahi hoti.
+This information is stored **temporarily in memory (RAM)** and is **not saved permanently**, except for some data stored in our database as explained below.
 
-## 2. Data Storage
+## 2. Data Storage and Database Usage
 
-- Angel koi database use nahi karta user data store karne ke liye.
-- Temporary data, jaise song queue, bot restart hone par delete ho jaata hai.
-- Agar future mein koi persistent feature add kiya gaya, toh is policy mein update karenge.
+Angel uses a database **only** to manage:
 
-## 3. Data Ka Use Kaise Hota Hai
+- Badge information (to recognize special user roles or achievements)  
+- Premium features (to verify premium users)  
+- No-prefix mode settings (to allow commands without prefixes in specific servers)  
 
-Hum sirf ye data use karte hain:
+Other than this, Angel does **not** store any personal user data. Temporary data like music queues is cleared when the bot restarts.
 
-- Music commands process karne ke liye
-- Voice channel mein connect hone ke liye
-- Text channel mein response bhejne ke liye
+If new features are added in the future requiring data storage, this policy will be updated accordingly.
+
+## 3. How We Use Data
+
+We use the above data only for:
+
+- Processing music commands  
+- Connecting to voice channels  
+- Sending responses in text channels  
+- Managing badge, premium, and no-prefix features through the database  
 
 ## 4. Third-Party Services
 
-Angel YouTube, Spotify, SoundCloud jaise third-party services use kar sakta hai music fetch karne ke liye. Hum koi user data unke saath share nahi karte. Saare requests anonymous ya server-side hote hain.
+Angel may use third-party services like YouTube, Spotify, and SoundCloud to fetch music data. We **do not share any user data** with these services. All requests are made anonymously or server-side.
 
 ## 5. User Rights
 
-Kyunki hum aapka data store nahi karte, aapko delete ya request karne ki zarurat nahi hai. Agar bot se koi dikkat ho ya privacy violation lag raha ho toh:
+Since Angel does not store personal data except the limited database usage mentioned above, there is nothing to delete or request regarding your data.
 
-- Bot ko apne server se remove kar sakte hain
-- Support server par contact kar sakte hain
+If you have any concerns about the bot’s behavior or privacy, you may:
 
-## 6. Policy Mein Changes
+- Remove the bot from your server  
+- Contact the bot owner via the support server  
 
-Kabhi kabhi policy update ho sakti hai naye features ke liye. Important changes support server mein announce kiye jayenge.
+## 6. Changes to this Policy
+
+This Privacy Policy may be updated occasionally as new features are added. Major changes will be announced in the support server or update logs.
 
 ## 7. Contact
 
